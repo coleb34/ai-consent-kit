@@ -1,0 +1,14 @@
+:root{--ink:#1C2541;--teal:#2E7D7A;--amber:#E3A63B;--paper:#F5F2EC;--muted:#5B6478;--line:#E2DED6}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:var(--teal)}.wrap{max-width:960px;margin:0 auto;padding:0 20px}header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding:14px 20px}.brand{font-weight:700;text-decoration:none;color:var(--ink)}
+.brand span{color:var(--muted);font-weight:500}nav a{margin-left:16px;font-size:14px;text-decoration:none;color:var(--muted)}
+.hero{background:var(--paper);padding:56px 0 48px}h1{font-family:'Source Serif 4',Georgia,serif;font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 16px}
+h2{font-family:'Source Serif 4',Georgia,serif;font-size:28px;margin:44px 0 12px}h3{margin:20px 0 6px}.lead{font-size:19px;color:var(--muted);max-width:680px}
+.cta{display:inline-block;background:var(--ink);color:#fff;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:600;margin:8px 10px 0 0}
+.cta.secondary{background:#fff;color:var(--ink);border:1px solid var(--ink)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:12px;padding:20px;background:#fff}.price{font-size:40px;font-weight:700}.price small{font-size:15px;color:var(--muted);font-weight:500}
+.note{background:#FFF8EA;border-left:4px solid var(--amber);padding:14px 18px;border-radius:6px;margin:20px 0}table{border-collapse:collapse;width:100%;font-size:15px}
+td,th{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}
+.states{columns:3 180px;font-size:15px}.states a{display:block;padding:3px 0}footer{margin-top:64px;padding:28px 0;background:var(--paper);font-size:13px;color:var(--muted)}
+details{border-bottom:1px solid var(--line);padding:12px 0}summary{font-weight:600;cursor:pointer}ul.check li{list-style:none;margin-left:-20px}ul.check li:before{content:"\2713  ";color:var(--teal);font-weight:700}
